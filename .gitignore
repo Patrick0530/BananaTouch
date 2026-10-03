@@ -1,0 +1,5 @@
+*.[0-9]*.toe
+Backup/
+CrashAutoSave*
+.DS_Store
+Thumbs.db
