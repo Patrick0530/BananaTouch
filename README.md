@@ -10,6 +10,8 @@
 📖 **完整圖文教學**：[用 ESP32 做水果感測音樂裝置｜電容觸控 + TouchDesigner 互動裝置入門教學](https://institute.luxmin.art/esp32-fruit-piano-with-touchdesigner/)
 （材料挑選、Arduino IDE 與驅動安裝、每一步的 TD 截圖都在網誌裡，這份 README 只放上手需要的部分。）
 
+🎤 **演講投影片**：TouchDesigner Taiwan 2026「TouchDesigner × 電子裝置」（2026-10-04，C-LAB）→ [PDF](slides/TDTW2026-TouchDesigner-x-Electronics.pdf)
+
 <p>
   <img src="docs/bananas.jpg" width="49%" alt="準備做香蕉琴的四根香蕉">
   <img src="docs/wire-in-fruit.jpg" width="49%" alt="杜邦線公頭直接插進水果">
@@ -21,7 +23,8 @@
 ├─ ESP_Music_Touch/ESP_Music_Touch.ino   ESP32 程式：讀 8 個觸控腳位，每 50 ms 從序列埠送出一行
 ├─ ESP Music Touch.toe                   TouchDesigner 專案：接收 → 判斷觸碰 → 播放音檔
 ├─ assets/Notes/*.wav                    8 個音（C3–C4），.toe 以相對路徑讀取
-└─ docs/                                 README 用圖
+├─ docs/                                 README 用圖
+└─ slides/                               TouchDesigner Taiwan 2026 演講投影片（PDF）
 ```
 
 ## 需要準備
@@ -100,6 +103,7 @@ TD 專案裡每個步驟都有註解框，打開就看得到：
 ## 授權
 
 [MIT](LICENSE)。`assets/Notes/` 的音檔由作者以 Ableton Live 製作，隨本專案以同一授權釋出。
+`slides/` 的演講投影片不在 MIT 授權範圍內；投影片中的商品照、廠商 logo 與腳位圖，版權屬於各自的原作者。
 
 ---
 
